@@ -60,6 +60,18 @@ export default function Header() {
           </div>
         </div>
       </div>
+
+      <div className="w-full h-[52px] bg-[#1A1B1F] py-[18px] px-[12px]">
+        <div className="flex items-center justify-between gap-[8px] h-[16px] px-[8px]">
+          <Image
+            src="/musinsa_logo.png"
+            alt="logo"
+            width={80}
+            height={20}
+            className="cursor-pointer"
+          />
+        </div>
+      </div>
     </>
   );
 }
